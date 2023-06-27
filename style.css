@@ -2,13 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(to right, rgb(49, 53, 49), rgb(0, 225, 255));
+    background: linear-gradient(to right, lightblue, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
-    width: 90%;
     margin: 20px auto;
+    padding: 20px;
     overflow: hidden;
+    border: 1px solid white;
 }
 
 h1 {
